@@ -45,12 +45,14 @@ html {
       -ms-flex-align: center;
           align-items: center;
   -webkit-transition: 1s;
+  -o-transition: 1s;
   transition: 1s;
 }
 
 .arrowUp a:hover {
   -webkit-transform: translateY(-10px);
-          transform: translateY(-10px);
+          -ms-transform: translateY(-10px);
+      transform: translateY(-10px);
   color: aqua;
 }
 
@@ -78,6 +80,7 @@ body nav {
   background: transparent;
   z-index: 999;
   -webkit-transition: .5s;
+  -o-transition: .5s;
   transition: .5s;
 }
 
@@ -164,6 +167,7 @@ body nav .nav1 ul li a {
   text-decoration: none;
   position: relative;
   -webkit-transition: .7s;
+  -o-transition: .7s;
   transition: .7s;
 }
 
@@ -176,6 +180,7 @@ body nav .nav1 ul li a:after {
   bottom: 10px;
   left: 15px;
   -webkit-transition: .7s;
+  -o-transition: .7s;
   transition: .7s;
 }
 
@@ -314,6 +319,7 @@ body main .fading .contMain .rowMain .colMain p span {
 body main .fading .contMain .rowMain .colMain .up {
   color: whitesmoke;
   -webkit-transition: 0.7s;
+  -o-transition: 0.7s;
   transition: 0.7s;
   border-radius: 20px;
   width: 50%;
@@ -344,6 +350,7 @@ body main .fading .contMain .rowMain .colMain .up:hover, body main .fading .cont
 /* Ovde pocinjem O Nama sekciju */
 body .onamaFluid {
   background: -webkit-gradient(linear, left top, left bottom, from(#00B4DB), to(#0083B0));
+  background: -o-linear-gradient(top, #00B4DB, #0083B0);
   background: linear-gradient(top, #00B4DB, #0083B0);
   padding: 5% 0%;
 }
@@ -439,6 +446,7 @@ body .usluge .contUsluge .rowUsluge .colUsluge .textUsluge .down {
 body .usluge .contUsluge .rowUsluge .colUsluge .textUsluge .up {
   color: whitesmoke;
   -webkit-transition: 0.7s;
+  -o-transition: 0.7s;
   transition: 0.7s;
   border-radius: 20px;
   width: 50%;
@@ -469,6 +477,7 @@ body .usluge .contUsluge .rowUsluge .colUsluge .textUsluge .up:hover, body .uslu
 /* Ovde zavrsavam usluge i pocinjem Zasto Bas Mi */
 body .fluidZasto {
   background: -webkit-gradient(linear, left top, left bottom, from(#00B4DB), to(#0083B0));
+  background: -o-linear-gradient(top, #00B4DB, #0083B0);
   background: linear-gradient(top, #00B4DB, #0083B0);
   padding: 5% 0%;
   /*background: linear-gradient(to bottom, #2193b0, #6dd5ed);*/
@@ -548,6 +557,7 @@ body .fluidZasto .contZasto .rowZasto .zastoPar {
 body .fluidZasto .up {
   color: whitesmoke;
   -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
   transition: 0.5s;
   background: transparent;
   border: 3px solid whitesmoke;
@@ -651,6 +661,7 @@ body .contTestimonial .rowTestimonial .colTestimonial .owl .owl-nav {
 /*POVERENJE SU NAM POKLONILI*/
 body .contPoverenje {
   background: -webkit-gradient(linear, left top, left bottom, from(#00B4DB), to(#0083B0));
+  background: -o-linear-gradient(top, #00B4DB, #0083B0);
   background: linear-gradient(top, #00B4DB, #0083B0);
 }
 
@@ -1081,6 +1092,7 @@ body .contUs {
 body .contUs .rowUs .colUs details {
   background: #26b4b4;
   -webkit-transition: 1s;
+  -o-transition: 1s;
   transition: 1s;
   color: whitesmoke;
 }
@@ -1103,6 +1115,7 @@ body .contUs .rowUs .colUs details summary {
       -ms-flex-align: center;
           align-items: center;
   -webkit-transition: 1s;
+  -o-transition: 1s;
   transition: 1s;
   font-weight: bold;
   padding: 1% 0%;
@@ -1163,4 +1176,3 @@ details[open] summary ~ * {
     opacity: 1;
   }
 }
-/*# sourceMappingURL=style.css.map */
